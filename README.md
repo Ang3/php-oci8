@@ -29,7 +29,7 @@ of the Composer documentation.
 Step 2: Installation of Oracle instant client
 ---------------------------------------------
 
-Included package version: 12.2.1.0.
+Included package version: 12.2.0.1.0.
 
 ```console
 $ sudo <COMPOSER_DIRECTORY>/vendor/bin/install_oracle_instant_client.sh
