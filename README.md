@@ -26,19 +26,42 @@ This command requires you to have Composer installed globally, as explained
 in the [installation chapter](https://getcomposer.org/doc/00-intro.md)
 of the Composer documentation.
 
-Step 2: Installation
---------------------
+Step 2: Installation of Oracle instant client
+---------------------------------------------
 
-Install Oracle instance client v12.2.1.0:
+Included package version: 12.2.1.0.
 
-```sudo <composer_directory>/vendor/bin/install_oracle_instant_client.sh```
+```console
+$ sudo <composer_directory>/vendor/bin/install_oracle_instant_client.sh
+```
 
-Configure PHP extension:
+Step 2: Configure PHP extension
+-------------------------------
 
-- **7.1** ```sudo <composer_directory>/vendor/bin/configure_php7.1-oci8.sh```
-- **7.2** ```sudo <composer_directory>/vendor/bin/configure_php7.2-oci8.sh```
-- **7.3** ```sudo <composer_directory>/vendor/bin/configure_php7.3-oci8.sh```
+Launch the command following your PHP version.
+
+**PHP v7.1**
+```console
+$ sudo <composer_directory>/vendor/bin/configure_php7.1-oci8.sh
+```
+
+**PHP v7.2**
+```console
+$ sudo <composer_directory>/vendor/bin/configure_php7.2-oci8.sh
+```
+
+**PHP v7.3**
+```console
+$ sudo <composer_directory>/vendor/bin/configure_php7.3-oci8.sh
+```
 
 Restart PHP-FPM, apache or nginx.
+
+Step 3: Optionally remove the package
+-------------------------------------
+
+```console
+$ composer global remove ang3/php-oci8
+```
 
 That's it!
