@@ -16,7 +16,7 @@ Step 1: Download sources
 ------------------------
 
 Open a command console, enter your project directory and execute the
-following command to download the latest stable version of this bundle:
+following command to download the latest stable version of this package:
 
 ```console
 $ composer global require --dev ang3/php-oci8
