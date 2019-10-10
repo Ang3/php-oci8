@@ -13,6 +13,7 @@ DIR_PACKAGES="$( cd "$( dirname -- "$0" )" && pwd )"/../packages
 mkdir /opt/oracle
 cp $DIR_PACKAGES/instantclient_12_2.zip /opt/oracle/instantclient_12_2.zip
 cd /opt/oracle
+sudo apt install unzip
 unzip /opt/oracle/instantclient_12_2.zip
 ln -s /opt/oracle/instantclient_12_2/libclntsh.so.12.1 /opt/oracle/instantclient_12_2/libclntsh.so
 ln -s /opt/oracle/instantclient_12_2/libocci.so.12.1 /opt/oracle/instantclient_12_2/libocci.so
