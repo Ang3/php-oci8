@@ -32,7 +32,7 @@ Step 2: Installation of Oracle instant client
 Included package version: 12.2.0.1.0.
 
 ```console
-$ sudo <COMPOSER_DIRECTORY>/vendor/bin/install_oracle_instant_client.sh
+$ sudo sh /<COMPOSER_DIRECTORY>/vendor/bin/install_oracle_instant_client.sh
 ```
 
 Step 2: Configure PHP extension
@@ -42,17 +42,17 @@ Launch the command following your PHP version.
 
 **PHP v7.1**
 ```console
-$ sudo <COMPOSER_DIRECTORY>/vendor/bin/configure_php7.1-oci8.sh
+$ sudo sh /<COMPOSER_DIRECTORY>/vendor/bin/configure_php7.1-oci8.sh
 ```
 
 **PHP v7.2**
 ```console
-$ sudo <COMPOSER_DIRECTORY>/vendor/bin/configure_php7.2-oci8.sh
+$ sudo sh /<COMPOSER_DIRECTORY>/vendor/bin/configure_php7.2-oci8.sh
 ```
 
 **PHP v7.3**
 ```console
-$ sudo <COMPOSER_DIRECTORY>/vendor/bin/configure_php7.3-oci8.sh
+$ sudo sh /<COMPOSER_DIRECTORY>/vendor/bin/configure_php7.3-oci8.sh
 ```
 
 Restart PHP-FPM, apache or nginx.
