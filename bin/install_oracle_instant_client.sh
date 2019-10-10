@@ -8,7 +8,7 @@ fi
 echo "Installing Oracle instant client v12.2.0.1.0..."
 # @see https://gist.github.com/mazedlx/8e7764dfe68f08168d3f66a60256a863
 
-DIR_PACKAGES="$( cd "$( dirname -- "$0" )" && pwd )"/packages
+DIR_PACKAGES="$( cd "$( dirname -- "$0" )" && pwd )"/../packages
 
 mkdir /opt/oracle
 cp $DIR_PACKAGES/instantclient_12_2.zip /opt/oracle/instantclient_12_2.zip

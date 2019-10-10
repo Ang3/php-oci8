@@ -1,0 +1,23 @@
+{
+    "name": "ang3/php-oci8",
+    "type": "library",
+    "description": "php-oci8 installation binaries",
+    "keywords": ["php-oci8", "oracle", "instant", "client"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joanis ROUANET",
+            "email": "joanis.ang3@gmail.com",
+            "homepage": "https://github.com/Ang3"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "bin": [
+        "bin/install_oracle_instant_client.sh",
+        "bin/configure_php7.1-oci8.sh",
+        "bin/configure_php7.2-oci8.sh",
+        "bin/configure_php7.3-oci8.sh"
+    ]
+}
