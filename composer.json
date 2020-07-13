@@ -19,6 +19,7 @@
         "bin/install_oracle_instant_client.sh",
         "bin/configure_php7.1-oci8.sh",
         "bin/configure_php7.2-oci8.sh",
-        "bin/configure_php7.3-oci8.sh"
+        "bin/configure_php7.3-oci8.sh",
+        "bin/configure_php7.4-oci8.sh"
     ]
 }
