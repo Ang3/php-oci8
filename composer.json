@@ -15,6 +15,7 @@
         "php": "^7.1"
     },
     "bin": [
+        "bin/instantclient_12_2.zip",
         "bin/install_oracle_instant_client.sh",
         "bin/configure_php7.1-oci8.sh",
         "bin/configure_php7.2-oci8.sh",
